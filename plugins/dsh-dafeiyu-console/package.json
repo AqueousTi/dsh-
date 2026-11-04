@@ -1,0 +1,26 @@
+{
+  "name": "dsh-dafeiyu-console",
+  "version": "0.1.1",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "description": "大肥鱼控制台：在 DSH 里配置和控制 QQ 机器人（AstrBot + NapCat）与 B站 插件",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-settings-plugins"
+      ]
+    }
+  },
+  "license": "MIT"
+}

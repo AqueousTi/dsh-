@@ -1,0 +1,9 @@
+{
+  "prepared_from": "v7-test-20261104",
+  "runtime_patch_revision": 4,
+  "dsh": "0.2.1-rc.3",
+  "astrbot": "4.29.3",
+  "v7_clean_windows_acceptance": "pending",
+  "automatic_updates_implemented": false,
+  "release_channel": "source-preview"
+}

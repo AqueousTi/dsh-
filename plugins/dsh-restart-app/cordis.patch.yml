@@ -1,0 +1,10 @@
+# 重启 DSH —— 组合包补丁
+
+- insert:
+    - id: dsh-restart-app
+      name: 'dsh-restart-app'
+      config:
+        # 留空 = 用当前进程的可执行文件（一般就是 D:\dsh\DeepSeek Harness.exe）
+        exePath: ''
+        # 点下去到真正杀进程之间等多久（秒）：给界面一点时间把“重启中”画出来
+        delaySeconds: 1

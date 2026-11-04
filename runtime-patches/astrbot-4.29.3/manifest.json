@@ -1,0 +1,37 @@
+{
+  "astrbot_version": "4.29.3",
+  "files": [
+    {
+      "path": "core/pipeline/result_decorate/stage.py",
+      "original": "24acff446a409640b592129bb047111eac4d23b6c9383d96664efbd0525231f6",
+      "patched": "46f8742c6dc2d1b6834bdc58b761f25b0fa6161c4f8a628ee21d54bf64916181",
+      "previous": [
+        "3e58d7599276981b021b972165b8db22711ed47409d367053cff8496d805c2ab"
+      ]
+    },
+    {
+      "path": "core/pipeline/respond/stage.py",
+      "original": "b005932bfed844a001bc42627088df7fb498fba470e0f2ea7c0e1215f180f592",
+      "patched": "35ab994da404d58c1efe97ec68ea59fa88e9b98f36b36c0f3bbb859c6f6cb079",
+      "previous": [
+        "9f637e9d710cf8f9b91adc902bbd429783a84efb9aa907bf9e225971b79f2945",
+        "b1ee1f128cc26154c7997f1b1117fa90b31e0c4d3ff4976a223b9164febc9824"
+      ]
+    },
+    {
+      "path": "core/pipeline/deferred_tts.py",
+      "original": null,
+      "patched": "56c84511ebbd45eaa81cf9886a2f7145bc73a0b831dea44fd2581c8a8992103e",
+      "previous": [
+        "ef2fe668ffd399ade2565f33a8f1f7f06e6198d8c519c1a9f3a99985f57ec64f"
+      ]
+    },
+    {
+      "path": "core/config/default.py",
+      "original": "b7fe73f785ae9bc386d00cd0e27c8c12dc15c7e718e41e4819677ad4ea0f2b5b",
+      "patched": "1d50b9347137a433f4283e6f803963b49df107e31e80f51e56c29a7889ffb7fd",
+      "previous": []
+    }
+  ],
+  "revision": 4
+}

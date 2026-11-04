@@ -1,0 +1,34 @@
+# Never commit installed/user state or packaged binaries.
+**/venv/
+**/.venv/
+**/node_modules/
+**/__pycache__/
+*.pyc
+*.log
+*.db
+*.sqlite*
+.dsh/
+.env
+.env.*
+!*.example
+**/回答.json
+**/cmd_config.json
+**/credentials.json
+**/config.json
+*.exe
+*.dll
+*.whl
+*.zip
+*.7z
+*.safetensors
+*.bin
+*.onnx
+*.mp3
+*.wav
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+# Commit reviewed blank .example templates; actual local connection files are private.
+**/cordis.local.patch.yml

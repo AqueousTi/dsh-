@@ -1,0 +1,9 @@
+# 使用前在本机填写 bundlePath 和 astrbotPassword；不包含作者凭证。
+- insert:
+    - id: dafeiyu-console
+      name: dsh-dafeiyu-console
+      config:
+        bundlePath: ''
+        astrbotUser: astrbot
+        astrbotPassword: ''
+        astrbotPort: 6185

@@ -1,0 +1,3 @@
+# Preserve exact bytes: runtime-patches/manifest.json validates payload SHA-256.
+# Windows command scripts also retain their existing CRLF line endings.
+* -text
